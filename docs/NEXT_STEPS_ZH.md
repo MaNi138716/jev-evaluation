@@ -31,27 +31,6 @@
 | 延迟 p50 / p95 | 1.7 s / 54 s（自建组受输出 token 数拖累） | **0.88 s / 2.45 s** |
 | 费用 | 15,847 输入 + 25,732 输出 token | **US$0.000643**（36 次，输入计费、输出免费） |
 
-## 剩余事项（只剩一件）
-
-### 发布到 GitHub
-
-```bash
-cd E:\2026-09-07\jev-evaluation
-git init
-git add .
-git status          # 确认没有 .env / .env.backup-before-run
-git commit -m "Implement Jev-compatible service and evaluation"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/jev-evaluation.git
-git push -u origin main
-```
-
-提交前检查：
-
-- `git status` 里**不应出现** `.env`、`.env.backup-before-run`（`.gitignore` 已排除 `.env*`，只放行 `.env.example`）。
-- `reports/runs/` 已被忽略，不会上传历次临时实验；交付结果在 `reports/final/`。
-- 仓库根目录的 `reports/final/raw.jsonl` 含真实模型名与 token 用量，但**不含任何密钥**（可自行搜索确认）。
-- 项目自带 GitHub Actions（`.github/workflows/test.yml`），推送后会自动运行无密钥测试：`npm test`、`npm run data:check`、`npm run demo`。
 
 ## 复现本次评测
 
@@ -72,10 +51,5 @@ if (-not $ok) { throw '本地服务没起来' }
 Stop-Process -Id $srv.Id -Force
 ```
 
-`.env` 需要配置四项（模板见 `.env.example`）：通用模型后端的 `OPENAI_API_KEY`/`OPENAI_BASE_URL`/`OPENAI_MODEL`，以及 Jev 侧的 `TYPESAFE_API_KEY`/`JEV_BASE_URL`/`JEV_MODEL`。Jev 可用 OpenRouter 接入点（`https://openrouter.ai/api` + `typesafe/jev-1.13`），免费额度即可跑完本实验。
+`.env` 需要配置四项（模板见 `.env.example`）：通用模型后端的 `OPENAI_API_KEY`/`OPENAI_BASE_URL`/`OPENAI_MODEL`，以及 Jev 侧的 `TYPESAFE_API_KEY`/`JEV_BASE_URL`/`JEV_MODEL`。Jev 可用 OpenRouter 接入点（`https://openrouter.ai/api` + `typesafe/jev-1.13`）。
 
-## 一句话状态
-
-**代码、数据、双服务真实评测、报告与标签复核都已完成；只剩"推到 GitHub"一件事。**
-
-> 如果今后要修改任何标签：必须同步修改构建源、跑 `npm run data:build` 重建 `data/eval.jsonl`，并**重新运行评测**——否则报告里的数据哈希会与新数据不一致，`reports/final/` 的证据也随之失效。复核表本身不参与评测，单独改它不会影响数据。
