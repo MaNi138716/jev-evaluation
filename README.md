@@ -201,30 +201,9 @@ Stop-Process -Id $srv.Id -Force
 
 详细解释见 [实现与实验方法](docs/METHODOLOGY.md)；真实评测结论见 [正式评测报告](docs/REPORT.md)；接口差异见 [兼容性说明](docs/API_COMPATIBILITY.md)；来源和许可证见 [数据说明](data/README.md)；全部验证记录见 [交付验证记录](docs/VERIFICATION.md)。
 
-## 7. 整理报告并提交 GitHub
 
-本仓库已完成第 1–5 步，只剩第 6 步（推送）：
 
-1. ✅ 真实评测已完成：`mode` 为 `LIVE_API`、`selected_ids` 含 36 条、两个服务都在。
-2. ✅ 失败数为 0，两个服务覆盖率均为 100%，质量差异来自模型判断而非接口可靠性。
-3. ✅ 错例分析已写入 [正式评测报告](docs/REPORT.md)（本次唯一错例为本地服务的 `authored-10`）。
-4. ✅ 完整实验结果已复制到 `reports/final/`，含原始响应。`reports/runs/` 默认不提交，避免误上传临时实验。
-5. ✅ 报告已按 `docs/REPORT_TEMPLATE.md` 的结构填写为 `docs/REPORT.md`，README 顶部状态已更新。
-6. ⬜ 在 GitHub 创建一个空仓库（例如 `jev-evaluation`），然后在项目目录执行：
-
-```bash
-git init
-git add .
-git status
-git commit -m "Implement Jev-compatible service and evaluation"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/jev-evaluation.git
-git push -u origin main
-```
-
-先将 `YOUR_USERNAME` 替换成自己的用户名。提交前用 `git status` 确认没有 `.env`、`.env.backup-before-run`（`.gitignore` 已排除 `.env*`，只放行 `.env.example`）。如果已有 `origin`，先用 `git remote -v` 查看，不要重复添加。项目包含 GitHub Actions，推送后会运行无密钥测试。
-
-## 8. 常见问题
+## 7. 常见问题
 
 | 现象 | 处理 |
 |---|---|
