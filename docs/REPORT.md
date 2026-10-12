@@ -83,14 +83,3 @@
 修复前，本次 72 次请求中 **12 条 Jev score 答案里有 3 条会被判为 `invalid_response`**，Jev 的紧急度准确率会假性从 100% 降到 75%，并被错误地记成"接口失败"。修复后容差按等级数计算（3 级量表为 0.05），同时仍拒绝分数越界、legend 不匹配、以及与自身分布明显矛盾的答案。`test/core.test.js` 已加入该场景的回归测试。
 
 以上修订**只影响评测器对返回值的接受门槛，不改变任何发送给服务的内容**，因此不影响两个服务的公平比较。
-
-## 6. 复核入口
-
-| 想看什么 | 打开 |
-|---|---|
-| 汇总表（本报告数据来源） | `reports/final/report.md` |
-| 机器可读指标、混淆矩阵、延迟 | `reports/final/summary.json` |
-| 48×2 个答案的逐题对错 | `reports/final/predictions.json` |
-| 72 次请求的原始响应、真实模型名、token 与费用 | `reports/final/raw.jsonl` |
-| 逐条数据与标注理由 | `data/REVIEW.md`、`data/README.md` |
-| Jev 直连被拒的证据 | `reports/connectivity-2026-10-11/`、`reports/jev-blocked-2026-10-12/` |
