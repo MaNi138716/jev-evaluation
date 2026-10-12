@@ -1,0 +1,1278 @@
+{
+  "local": [
+    {
+      "id": "banking77-test-10",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1842.0399,
+      "predicted": "card_arrival",
+      "correct": true,
+      "brier": 0.008799999999999992,
+      "answer": {
+        "type": "choice",
+        "choice": "card_arrival",
+        "probabilities": {
+          "card_arrival": 0.92,
+          "lost_or_stolen_card": 0.04,
+          "pending_cash_withdrawal": 0.02,
+          "request_refund": 0.02
+        },
+        "confidence": 0.8933333333333334
+      }
+    },
+    {
+      "id": "banking77-test-22",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1145.7250999999999,
+      "predicted": "card_arrival",
+      "correct": true,
+      "brier": 0.0005500000000000008,
+      "answer": {
+        "type": "choice",
+        "choice": "card_arrival",
+        "probabilities": {
+          "card_arrival": 0.98,
+          "lost_or_stolen_card": 0.005,
+          "pending_cash_withdrawal": 0.005,
+          "request_refund": 0.01
+        },
+        "confidence": 0.9733333333333333
+      }
+    },
+    {
+      "id": "banking77-test-31",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1286.6389,
+      "predicted": "card_arrival",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "card_arrival",
+        "probabilities": {
+          "card_arrival": 0.97,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.01
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-28",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1104.3663999999999,
+      "predicted": "card_arrival",
+      "correct": true,
+      "brier": 0.0006000000000000008,
+      "answer": {
+        "type": "choice",
+        "choice": "card_arrival",
+        "probabilities": {
+          "card_arrival": 0.98,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0,
+          "request_refund": 0.01
+        },
+        "confidence": 0.9733333333333333
+      }
+    },
+    {
+      "id": "banking77-test-30",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1897.4012999999995,
+      "predicted": "card_arrival",
+      "correct": true,
+      "brier": 0.0005500000000000007,
+      "answer": {
+        "type": "choice",
+        "choice": "card_arrival",
+        "probabilities": {
+          "card_arrival": 0.98,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.005,
+          "request_refund": 0.005
+        },
+        "confidence": 0.9733333333333333
+      }
+    },
+    {
+      "id": "banking77-test-6",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1692.0357999999997,
+      "predicted": "card_arrival",
+      "correct": true,
+      "brier": 0.0022000000000000027,
+      "answer": {
+        "type": "choice",
+        "choice": "card_arrival",
+        "probabilities": {
+          "card_arrival": 0.96,
+          "lost_or_stolen_card": 0.02,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.01
+        },
+        "confidence": 0.9466666666666667
+      }
+    },
+    {
+      "id": "banking77-test-459",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "lost_or_stolen_card",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 975.1922999999988,
+      "predicted": "lost_or_stolen_card",
+      "correct": true,
+      "brier": 0.0034000000000000046,
+      "answer": {
+        "type": "choice",
+        "choice": "lost_or_stolen_card",
+        "probabilities": {
+          "card_arrival": 0.02,
+          "lost_or_stolen_card": 0.95,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.02
+        },
+        "confidence": 0.9333333333333332
+      }
+    },
+    {
+      "id": "banking77-test-442",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "lost_or_stolen_card",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 829.1610000000001,
+      "predicted": "lost_or_stolen_card",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "lost_or_stolen_card",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.97,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.01
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-450",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "lost_or_stolen_card",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1065.592200000001,
+      "predicted": "lost_or_stolen_card",
+      "correct": true,
+      "brier": 0,
+      "answer": {
+        "type": "choice",
+        "choice": "lost_or_stolen_card",
+        "probabilities": {
+          "card_arrival": 0,
+          "lost_or_stolen_card": 1,
+          "pending_cash_withdrawal": 0,
+          "request_refund": 0
+        },
+        "confidence": 1
+      }
+    },
+    {
+      "id": "banking77-test-471",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "lost_or_stolen_card",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 668.9130999999998,
+      "predicted": "lost_or_stolen_card",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "lost_or_stolen_card",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.97,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.01
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-474",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "lost_or_stolen_card",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 724.5077999999994,
+      "predicted": "lost_or_stolen_card",
+      "correct": true,
+      "brier": 0.0048000000000000065,
+      "answer": {
+        "type": "choice",
+        "choice": "lost_or_stolen_card",
+        "probabilities": {
+          "card_arrival": 0.02,
+          "lost_or_stolen_card": 0.94,
+          "pending_cash_withdrawal": 0.02,
+          "request_refund": 0.02
+        },
+        "confidence": 0.9199999999999999
+      }
+    },
+    {
+      "id": "banking77-test-478",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "lost_or_stolen_card",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 880.4231999999993,
+      "predicted": "lost_or_stolen_card",
+      "correct": true,
+      "brier": 0.002200000000000003,
+      "answer": {
+        "type": "choice",
+        "choice": "lost_or_stolen_card",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.96,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.02
+        },
+        "confidence": 0.9466666666666667
+      }
+    },
+    {
+      "id": "banking77-test-234",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "pending_cash_withdrawal",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 834.5506999999998,
+      "predicted": "pending_cash_withdrawal",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "pending_cash_withdrawal",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.97,
+          "request_refund": 0.01
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-229",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "pending_cash_withdrawal",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1205.7326000000012,
+      "predicted": "pending_cash_withdrawal",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "pending_cash_withdrawal",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.97,
+          "request_refund": 0.01
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-209",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "pending_cash_withdrawal",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1588.199999999999,
+      "predicted": "pending_cash_withdrawal",
+      "correct": true,
+      "brier": 0.0022000000000000027,
+      "answer": {
+        "type": "choice",
+        "choice": "pending_cash_withdrawal",
+        "probabilities": {
+          "card_arrival": 0.02,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.96,
+          "request_refund": 0.01
+        },
+        "confidence": 0.9466666666666667
+      }
+    },
+    {
+      "id": "banking77-test-236",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "pending_cash_withdrawal",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 4869.579800000003,
+      "predicted": "pending_cash_withdrawal",
+      "correct": true,
+      "brier": 0.06379999999999998,
+      "answer": {
+        "type": "choice",
+        "choice": "pending_cash_withdrawal",
+        "probabilities": {
+          "card_arrival": 0.03,
+          "lost_or_stolen_card": 0.02,
+          "pending_cash_withdrawal": 0.8,
+          "request_refund": 0.15
+        },
+        "confidence": 0.7333333333333334
+      }
+    },
+    {
+      "id": "banking77-test-237",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "pending_cash_withdrawal",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1190.447400000001,
+      "predicted": "pending_cash_withdrawal",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "pending_cash_withdrawal",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.97,
+          "request_refund": 0.01
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-211",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "pending_cash_withdrawal",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1018.4982000000018,
+      "predicted": "pending_cash_withdrawal",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "pending_cash_withdrawal",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.97,
+          "request_refund": 0.01
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-1715",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "request_refund",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 747.5267999999996,
+      "predicted": "request_refund",
+      "correct": true,
+      "brier": 0.0048000000000000065,
+      "answer": {
+        "type": "choice",
+        "choice": "request_refund",
+        "probabilities": {
+          "card_arrival": 0.02,
+          "lost_or_stolen_card": 0.02,
+          "pending_cash_withdrawal": 0.02,
+          "request_refund": 0.94
+        },
+        "confidence": 0.9199999999999999
+      }
+    },
+    {
+      "id": "banking77-test-1706",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "request_refund",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 721.5198999999993,
+      "predicted": "request_refund",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "request_refund",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.97
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-1718",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "request_refund",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1121.7547999999988,
+      "predicted": "request_refund",
+      "correct": true,
+      "brier": 0,
+      "answer": {
+        "type": "choice",
+        "choice": "request_refund",
+        "probabilities": {
+          "card_arrival": 0,
+          "lost_or_stolen_card": 0,
+          "pending_cash_withdrawal": 0,
+          "request_refund": 1
+        },
+        "confidence": 1
+      }
+    },
+    {
+      "id": "banking77-test-1700",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "request_refund",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 846.5123999999996,
+      "predicted": "request_refund",
+      "correct": true,
+      "brier": 0.0012000000000000016,
+      "answer": {
+        "type": "choice",
+        "choice": "request_refund",
+        "probabilities": {
+          "card_arrival": 0.01,
+          "lost_or_stolen_card": 0.01,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.97
+        },
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "banking77-test-1694",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "request_refund",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 1059.4422000000013,
+      "predicted": "request_refund",
+      "correct": true,
+      "brier": 0.0005500000000000008,
+      "answer": {
+        "type": "choice",
+        "choice": "request_refund",
+        "probabilities": {
+          "card_arrival": 0.005,
+          "lost_or_stolen_card": 0.005,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.98
+        },
+        "confidence": 0.9733333333333333
+      }
+    },
+    {
+      "id": "banking77-test-1680",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "request_refund",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 673.6025999999983,
+      "predicted": "request_refund",
+      "correct": true,
+      "brier": 0.0034000000000000046,
+      "answer": {
+        "type": "choice",
+        "choice": "request_refund",
+        "probabilities": {
+          "card_arrival": 0.02,
+          "lost_or_stolen_card": 0.02,
+          "pending_cash_withdrawal": 0.01,
+          "request_refund": 0.95
+        },
+        "confidence": 0.9333333333333332
+      }
+    },
+    {
+      "id": "authored-01",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": true,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 20511.475399999996,
+      "error": {
+        "code": "upstream_http_error",
+        "message": "Upstream returned HTTP 502",
+        "details": {
+          "upstream_status": 502
+        }
+      },
+      "correct": false
+    },
+    {
+      "id": "authored-01",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 0,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 20511.475399999996,
+      "error": {
+        "code": "upstream_http_error",
+        "message": "Upstream returned HTTP 502",
+        "details": {
+          "upstream_status": 502
+        }
+      },
+      "correct": false
+    },
+    {
+      "id": "authored-02",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": false,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 8782.813500000004,
+      "predicted": true,
+      "correct": false,
+      "brier": 0.9801,
+      "answer": {
+        "type": "noul",
+        "noul": 0.99,
+        "confidence": 0.98
+      }
+    },
+    {
+      "id": "authored-02",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 0,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 8782.813500000004,
+      "predicted": 0,
+      "correct": true,
+      "raw_score": 0.025,
+      "answer": {
+        "type": "score",
+        "score": 0.025,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.98,
+          "1": 0.015,
+          "2": 0.005
+        },
+        "confidence": 0.9625
+      }
+    },
+    {
+      "id": "authored-03",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": true,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 11876.972299999994,
+      "predicted": true,
+      "correct": true,
+      "brier": 0.00010000000000000018,
+      "answer": {
+        "type": "noul",
+        "noul": 0.99,
+        "confidence": 0.98
+      }
+    },
+    {
+      "id": "authored-03",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 0,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 11876.972299999994,
+      "predicted": 0,
+      "correct": true,
+      "raw_score": 0.015,
+      "answer": {
+        "type": "score",
+        "score": 0.015,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.99,
+          "1": 0.005,
+          "2": 0.005
+        },
+        "confidence": 0.9775
+      }
+    },
+    {
+      "id": "authored-04",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": false,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 6211.795899999997,
+      "predicted": true,
+      "correct": false,
+      "brier": 0.9801,
+      "answer": {
+        "type": "noul",
+        "noul": 0.99,
+        "confidence": 0.98
+      }
+    },
+    {
+      "id": "authored-04",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 0,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 6211.795899999997,
+      "predicted": 0,
+      "correct": true,
+      "raw_score": 0,
+      "answer": {
+        "type": "score",
+        "score": 0,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 1,
+          "1": 0,
+          "2": 0
+        },
+        "confidence": 1
+      }
+    },
+    {
+      "id": "authored-05",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": true,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 15408.95610000001,
+      "predicted": true,
+      "correct": true,
+      "brier": 0.00010000000000000018,
+      "answer": {
+        "type": "noul",
+        "noul": 0.99,
+        "confidence": 0.98
+      }
+    },
+    {
+      "id": "authored-05",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 1,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 15408.95610000001,
+      "predicted": 1,
+      "correct": true,
+      "raw_score": 1,
+      "answer": {
+        "type": "score",
+        "score": 1,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.98,
+          "2": 0.01
+        },
+        "confidence": 0.97
+      }
+    },
+    {
+      "id": "authored-06",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": false,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 10991.785700000008,
+      "predicted": true,
+      "correct": false,
+      "brier": 0.9603999999999999,
+      "answer": {
+        "type": "noul",
+        "noul": 0.98,
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "authored-06",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 1,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 10991.785700000008,
+      "predicted": 1,
+      "correct": true,
+      "raw_score": 0.99,
+      "answer": {
+        "type": "score",
+        "score": 0.99,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.02,
+          "1": 0.97,
+          "2": 0.01
+        },
+        "confidence": 0.955
+      }
+    },
+    {
+      "id": "authored-07",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": true,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 3501.6004000000103,
+      "predicted": true,
+      "correct": true,
+      "brier": 0.00010000000000000018,
+      "answer": {
+        "type": "noul",
+        "noul": 0.99,
+        "confidence": 0.98
+      }
+    },
+    {
+      "id": "authored-07",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 1,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 3501.6004000000103,
+      "predicted": 1,
+      "correct": true,
+      "raw_score": 1,
+      "answer": {
+        "type": "score",
+        "score": 1,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.98,
+          "2": 0.01
+        },
+        "confidence": 0.97
+      }
+    },
+    {
+      "id": "authored-08",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": false,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 2335.918900000004,
+      "predicted": false,
+      "correct": true,
+      "brier": 0,
+      "answer": {
+        "type": "noul",
+        "noul": 0,
+        "confidence": 1
+      }
+    },
+    {
+      "id": "authored-08",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 1,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 2335.918900000004,
+      "predicted": 1,
+      "correct": true,
+      "raw_score": 1,
+      "answer": {
+        "type": "score",
+        "score": 1,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 1,
+          "2": 0
+        },
+        "confidence": 1
+      }
+    },
+    {
+      "id": "authored-09",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": true,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 8546.39959999999,
+      "predicted": true,
+      "correct": true,
+      "brier": 0.00010000000000000018,
+      "answer": {
+        "type": "noul",
+        "noul": 0.99,
+        "confidence": 0.98
+      }
+    },
+    {
+      "id": "authored-09",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 2,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 8546.39959999999,
+      "predicted": 2,
+      "correct": true,
+      "raw_score": 1.97,
+      "answer": {
+        "type": "score",
+        "score": 1.97,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.01,
+          "2": 0.98
+        },
+        "confidence": 0.955
+      }
+    },
+    {
+      "id": "authored-10",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": false,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 1765.0662999999913,
+      "predicted": true,
+      "correct": false,
+      "brier": 0.9603999999999999,
+      "answer": {
+        "type": "noul",
+        "noul": 0.98,
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "authored-10",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 2,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 1765.0662999999913,
+      "predicted": 2,
+      "correct": true,
+      "raw_score": 1.96,
+      "answer": {
+        "type": "score",
+        "score": 1.96,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.02,
+          "2": 0.97
+        },
+        "confidence": 0.94
+      }
+    },
+    {
+      "id": "authored-11",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": true,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 17764.6823,
+      "predicted": true,
+      "correct": true,
+      "brier": 0.0004000000000000007,
+      "answer": {
+        "type": "noul",
+        "noul": 0.98,
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "authored-11",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 2,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 17764.6823,
+      "predicted": 2,
+      "correct": true,
+      "raw_score": 1.97,
+      "answer": {
+        "type": "score",
+        "score": 1.97,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.01,
+          "1": 0.01,
+          "2": 0.98
+        },
+        "confidence": 0.955
+      }
+    },
+    {
+      "id": "authored-12",
+      "group": "authored_refund_urgency",
+      "question": "refund_requested",
+      "type": "noul",
+      "expected": false,
+      "criteria": {
+        "true": "A current explicit refund, reversal or money-back request.",
+        "false": "No current request for money to be returned."
+      },
+      "latency_ms": 16652.034000000014,
+      "predicted": true,
+      "correct": false,
+      "brier": 0.9801,
+      "answer": {
+        "type": "noul",
+        "noul": 0.99,
+        "confidence": 0.98
+      }
+    },
+    {
+      "id": "authored-12",
+      "group": "authored_refund_urgency",
+      "question": "urgency",
+      "type": "score",
+      "expected": 2,
+      "criteria": [
+        "routine: no imminent deadline or complete service blockage",
+        "deadline_soon: near deadline without complete service blockage",
+        "service_blocked: the service is completely unusable"
+      ],
+      "latency_ms": 16652.034000000014,
+      "predicted": 2,
+      "correct": true,
+      "raw_score": 1.9849999999999999,
+      "answer": {
+        "type": "score",
+        "score": 1.9849999999999999,
+        "legend": {
+          "0": "routine: no imminent deadline or complete service blockage",
+          "1": "deadline_soon: near deadline without complete service blockage",
+          "2": "service_blocked: the service is completely unusable"
+        },
+        "probabilities": {
+          "0": 0.005,
+          "1": 0.005,
+          "2": 0.99
+        },
+        "confidence": 0.9775
+      }
+    }
+  ]
+}

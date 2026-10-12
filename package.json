@@ -1,0 +1,13 @@
+{
+  "name": "jev-evaluation", "version": "1.0.0", "private": true,
+  "type": "module", "engines": { "node": ">=22.9.0" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --test test/*.test.js",
+    "data:build": "node scripts/build-dataset.js",
+    "data:check": "node scripts/check-dataset.js",
+    "evaluate": "node --env-file-if-exists=.env scripts/evaluate.js",
+    "demo": "node scripts/demo.js",
+    "smoke": "node --env-file-if-exists=.env scripts/smoke.js"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "jev": [
+    {
+      "id": "banking77-test-10",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 726.9258,
+      "error": {
+        "code": "upstream_http_error",
+        "message": "Upstream returned HTTP 451",
+        "details": {
+          "upstream_status": 451
+        }
+      },
+      "correct": false
+    },
+    {
+      "id": "banking77-test-22",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 548.9881,
+      "error": {
+        "code": "upstream_http_error",
+        "message": "Upstream returned HTTP 451",
+        "details": {
+          "upstream_status": 451
+        }
+      },
+      "correct": false
+    },
+    {
+      "id": "banking77-test-31",
+      "group": "banking77_intent",
+      "question": "intent",
+      "type": "choice",
+      "expected": "card_arrival",
+      "criteria": {
+        "card_arrival": "An ordered card has not arrived; asking where it is or about its delivery.",
+        "lost_or_stolen_card": "An existing card has been lost or stolen.",
+        "pending_cash_withdrawal": "An ATM cash withdrawal remains pending.",
+        "request_refund": "Requesting a refund of a card payment or asking how to obtain one."
+      },
+      "latency_ms": 230.35979999999995,
+      "error": {
+        "code": "upstream_http_error",
+        "message": "Upstream returned HTTP 451",
+        "details": {
+          "upstream_status": 451
+        }
+      },
+      "correct": false
+    }
+  ]
+}

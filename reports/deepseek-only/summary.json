@@ -1,0 +1,143 @@
+{
+  "mode": "LIVE_API",
+  "started_at": "2026-10-11T11:16:27.686Z",
+  "finished_at": "2026-10-11T11:19:02.048Z",
+  "status": "completed_with_errors",
+  "node_version": "v24.19.0",
+  "dataset_sha256": "8bf7b347b87b86a690b419a245e7fbd7db94b3c639436e6de17cf627347335f8",
+  "selected_ids": [
+    "banking77-test-10",
+    "banking77-test-22",
+    "banking77-test-31",
+    "banking77-test-28",
+    "banking77-test-30",
+    "banking77-test-6",
+    "banking77-test-459",
+    "banking77-test-442",
+    "banking77-test-450",
+    "banking77-test-471",
+    "banking77-test-474",
+    "banking77-test-478",
+    "banking77-test-234",
+    "banking77-test-229",
+    "banking77-test-209",
+    "banking77-test-236",
+    "banking77-test-237",
+    "banking77-test-211",
+    "banking77-test-1715",
+    "banking77-test-1706",
+    "banking77-test-1718",
+    "banking77-test-1700",
+    "banking77-test-1694",
+    "banking77-test-1680",
+    "authored-01",
+    "authored-02",
+    "authored-03",
+    "authored-04",
+    "authored-05",
+    "authored-06",
+    "authored-07",
+    "authored-08",
+    "authored-09",
+    "authored-10",
+    "authored-11",
+    "authored-12"
+  ],
+  "threshold": 0.5,
+  "targets": [
+    {
+      "name": "local",
+      "base": "http://127.0.0.1:8000",
+      "model": "local-gpt"
+    }
+  ],
+  "retries": 0,
+  "timeout_ms": 60000,
+  "summaries": {
+    "local": {
+      "banking77_intent/intent": {
+        "type": "choice",
+        "total": 24,
+        "valid": 24,
+        "failures": 0,
+        "coverage": 1,
+        "accuracy_all": 1,
+        "accuracy_valid": 1,
+        "latency_ms_p50": 1059.4422000000013,
+        "latency_ms_p95": 1897.4012999999995,
+        "confusion_matrix": {
+          "card_arrival": {
+            "card_arrival": 6,
+            "lost_or_stolen_card": 0,
+            "pending_cash_withdrawal": 0,
+            "request_refund": 0,
+            "__error__": 0
+          },
+          "lost_or_stolen_card": {
+            "card_arrival": 0,
+            "lost_or_stolen_card": 6,
+            "pending_cash_withdrawal": 0,
+            "request_refund": 0,
+            "__error__": 0
+          },
+          "pending_cash_withdrawal": {
+            "card_arrival": 0,
+            "lost_or_stolen_card": 0,
+            "pending_cash_withdrawal": 6,
+            "request_refund": 0,
+            "__error__": 0
+          },
+          "request_refund": {
+            "card_arrival": 0,
+            "lost_or_stolen_card": 0,
+            "pending_cash_withdrawal": 0,
+            "request_refund": 6,
+            "__error__": 0
+          }
+        },
+        "macro_f1_all": 1,
+        "brier_valid": 0.004527083333333335,
+        "balanced_accuracy_all": 1
+      },
+      "authored_refund_urgency/refund_requested": {
+        "type": "noul",
+        "total": 12,
+        "valid": 11,
+        "failures": 1,
+        "coverage": 0.9166666666666666,
+        "accuracy_all": 0.5,
+        "accuracy_valid": 0.5454545454545454,
+        "latency_ms_p50": 8782.813500000004,
+        "latency_ms_p95": 17764.6823,
+        "confusion_matrix": {
+          "false": {
+            "false": 1,
+            "true": 5,
+            "__error__": 0
+          },
+          "true": {
+            "false": 0,
+            "true": 5,
+            "__error__": 1
+          }
+        },
+        "macro_f1_all": 0.45535714285714285,
+        "brier_valid": 0.4419909090909091,
+        "balanced_accuracy_all": 0.5
+      },
+      "authored_refund_urgency/urgency": {
+        "type": "score",
+        "total": 12,
+        "valid": 11,
+        "failures": 1,
+        "coverage": 0.9166666666666666,
+        "accuracy_all": 0.9166666666666666,
+        "accuracy_valid": 1,
+        "latency_ms_p50": 8782.813500000004,
+        "latency_ms_p95": 17764.6823,
+        "mae_valid": 0.01500000000000002,
+        "rounded_accuracy_all": 0.9166666666666666
+      }
+    }
+  }
+}

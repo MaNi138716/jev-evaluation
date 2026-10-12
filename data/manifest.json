@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "examples": 36,
+  "question_answers": 48,
+  "selection": "First 6 per selected class after ascending SHA256(41:zero_based_row_index:text); no model-based selection",
+  "source_sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+  "dataset_sha256": "8bf7b347b87b86a690b419a245e7fbd7db94b3c639436e6de17cf627347335f8",
+  "counts": {
+    "banking77_intent": 24,
+    "authored_refund_urgency": 12,
+    "choice": 24,
+    "noul": 12,
+    "score": 12
+  }
+}

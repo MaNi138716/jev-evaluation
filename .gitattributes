@@ -1,0 +1,5 @@
+# Keep file contents byte-for-byte on every platform.
+# scripts/build-dataset.js verifies the SHA256 of data/source/banking77-test.csv, and the
+# evaluation report pins the SHA256 of data/eval.jsonl, so EOL conversion would break
+# reproducibility for anyone who clones this repository.
+* -text

@@ -1,0 +1,23 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "message": "I need a refund for the duplicate charge today, please.",
+    "impact": "deadline_soon"
+  },
+  "questions": {
+    "department": {
+      "type": "choice",
+      "instructions": "Which team should handle this request?",
+      "criteria": { "billing": "Payments, charges and refunds", "technical": "Software bugs and outages" }
+    },
+    "refund_requested": {
+      "type": "noul",
+      "instructions": "Is the speaker currently requesting money back?"
+    },
+    "urgency": {
+      "type": "score",
+      "instructions": "Apply the rubric to state.impact.",
+      "criteria": ["routine", "deadline_soon", "service_blocked"]
+    }
+  }
+}
